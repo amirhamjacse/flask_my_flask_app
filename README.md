@@ -26,31 +26,28 @@ Make sure you have the following installed:
    cd your-repo
 Create a virtual environment:
 
-bash
-Copy code
+
+
 python -m venv venv
 Activate the virtual environment:
 
 On Windows:
 
-bash
-Copy code
+
+
 venv\Scripts\activate
 On macOS/Linux:
 
-bash
-Copy code
+
 source venv/bin/activate
 Install the required packages:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Configuration
 Make sure to create a config.py file for your configuration settings. Here’s an example:
 
-python
-Copy code
+
 class Config:
     SQLALCHEMY_DATABASE_URI = 'sqlite:///mydatabase.db'  # Change this to your preferred database
     SQLALCHEMY_TRACK_MODIFICATIONS = False
@@ -59,8 +56,7 @@ Ensure your virtual environment is activated.
 
 Run the application:
 
-bash
-Copy code
+
 python app.py
 Open your browser and visit:
 
@@ -70,8 +66,7 @@ Admin Interface
 Database Migration
 To initialize the database and create all necessary tables, run:
 
-bash
-Copy code
+
 flask db init
 flask db migrate -m "Initial migration."
 flask db upgrade
