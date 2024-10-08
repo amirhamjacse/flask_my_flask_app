@@ -14,7 +14,7 @@ A simple Flask application with an admin interface powered by Flask-Admin and da
 
 Make sure you have the following installed:
 
-- Python 3.x
+- Python 3.10.12
 - pip (Python package installer)
 
 ## Installation
